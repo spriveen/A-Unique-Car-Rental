@@ -181,3 +181,24 @@ header {
   text-align: center;
   line-height: 4rem;
 }
+
+.about__container {
+  display: grid;
+  gap: 2rem;
+  overflow: hidden;
+}
+
+.about__image img {
+  max-width: 500px;
+  margin-inline: auto;
+}
+
+.about__content .section__description {
+  margin-block: 1rem;
+}
+
+.about__btn {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
